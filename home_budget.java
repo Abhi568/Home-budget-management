@@ -10,10 +10,7 @@ import java.util.*;
 import java.lang.*;
 import java.util.ArrayList;
 
-interface x
-{
-void print();
-}
+
 class Myexception extends Throwable
 {
 public Myexception(int i)
@@ -143,6 +140,7 @@ if (true==Expenses1.contains(ss))
 int pos=Expenses1.indexOf(ss);
 if (pos<=Expected1.size())
 {
+Expenses1.remove(pos);
 Actual1.remove(pos);
 Expected1.remove(pos);
 diffe1.remove(pos);
@@ -268,7 +266,6 @@ System.out.println("************************************You have successful made
 
 public static void main(String args[])
 {
-
 System.out.println("***********************************************Start making ur HOME BUDGET*********************************************");
 
 System.out.println("HOw many of no of expenses U want to enter");
