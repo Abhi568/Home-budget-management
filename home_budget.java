@@ -269,8 +269,8 @@ System.out.println("************************************You have successful made
 public static void main(String args[])
 {
 
-x obj1=()->System.out.println("***********************************************Start making ur HOME BUDGET*********************************************");
-obj1.print();
+System.out.println("***********************************************Start making ur HOME BUDGET*********************************************");
+
 System.out.println("HOw many of no of expenses U want to enter");
 Scanner s=new Scanner(System.in);
 int n=s.nextInt();
